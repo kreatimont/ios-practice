@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05078FF41EA8D9C7007EAF06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05078FF31EA8D9C7007EAF06 /* AppDelegate.swift */; };
+		05078FF91EA8D9C7007EAF06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05078FF71EA8D9C7007EAF06 /* Main.storyboard */; };
+		05078FFB1EA8D9C7007EAF06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05078FFA1EA8D9C7007EAF06 /* Assets.xcassets */; };
+		05078FFE1EA8D9C7007EAF06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05078FFC1EA8D9C7007EAF06 /* LaunchScreen.storyboard */; };
+		058D083C1EAE435000A9851B /* ApiDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058D083A1EAE435000A9851B /* ApiDelegate.swift */; };
+		058D083D1EAE435000A9851B /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058D083B1EAE435000A9851B /* ApiManager.swift */; };
+		058D08401EAE436100A9851B /* ABLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 058D083F1EAE436100A9851B /* ABLocationManager.m */; };
+		058D08421EAE436C00A9851B /* ABLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058D08411EAE436C00A9851B /* ABLocationManager.swift */; };
+		058D08441EAE437B00A9851B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058D08431EAE437B00A9851B /* MainViewController.swift */; };
+		058D08461EAE438F00A9851B /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058D08451EAE438F00A9851B /* LocationCell.swift */; };
+		274F7BB9502AA7EF92AAF503 /* Pods_BackgroundGPS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76561AB7C6A5DE2EAD468140 /* Pods_BackgroundGPS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05078FF01EA8D9C7007EAF06 /* BackgroundGPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BackgroundGPS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05078FF31EA8D9C7007EAF06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05078FF81EA8D9C7007EAF06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05078FFA1EA8D9C7007EAF06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05078FFD1EA8D9C7007EAF06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05078FFF1EA8D9C7007EAF06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		058D083A1EAE435000A9851B /* ApiDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApiDelegate.swift; path = BackgroundGPS/Api/ApiDelegate.swift; sourceTree = "<group>"; };
+		058D083B1EAE435000A9851B /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApiManager.swift; path = BackgroundGPS/Api/ApiManager.swift; sourceTree = "<group>"; };
+		058D083E1EAE436100A9851B /* ABLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABLocationManager.h; path = BackgroundGPS/Utils/ABLocationManager.h; sourceTree = "<group>"; };
+		058D083F1EAE436100A9851B /* ABLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABLocationManager.m; path = BackgroundGPS/Utils/ABLocationManager.m; sourceTree = "<group>"; };
+		058D08411EAE436C00A9851B /* ABLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ABLocationManager.swift; path = BackgroundGPS/Utils/ABLocationManager.swift; sourceTree = "<group>"; };
+		058D08431EAE437B00A9851B /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = BackgroundGPS/Controllers/MainViewController.swift; sourceTree = "<group>"; };
+		058D08451EAE438F00A9851B /* LocationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationCell.swift; path = BackgroundGPS/Cells/LocationCell.swift; sourceTree = "<group>"; };
+		05B51FAD1EAA49BF003CDD15 /* BackgroundGPS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BackgroundGPS-Bridging-Header.h"; sourceTree = "<group>"; };
+		2B926C927A8D47AA815171DA /* Pods-BackgroundGPS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BackgroundGPS.release.xcconfig"; path = "Pods/Target Support Files/Pods-BackgroundGPS/Pods-BackgroundGPS.release.xcconfig"; sourceTree = "<group>"; };
+		64BF2E1D97A2F3B252ED240B /* Pods-BackgroundGPS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BackgroundGPS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BackgroundGPS/Pods-BackgroundGPS.debug.xcconfig"; sourceTree = "<group>"; };
+		76561AB7C6A5DE2EAD468140 /* Pods_BackgroundGPS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BackgroundGPS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05078FED1EA8D9C7007EAF06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274F7BB9502AA7EF92AAF503 /* Pods_BackgroundGPS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05078FE71EA8D9C6007EAF06 = {
+			isa = PBXGroup;
+			children = (
+				0515E99D1EAD20F8002C4E3A /* cells */,
+				05B51FB21EAA4C0C003CDD15 /* utils */,
+				050790061EA9051F007EAF06 /* api */,
+				050790051EA8DF71007EAF06 /* controllers */,
+				05078FF21EA8D9C7007EAF06 /* BackgroundGPS */,
+				05078FF11EA8D9C7007EAF06 /* Products */,
+				F600435B04822A9EEF5C2643 /* Pods */,
+				579697AABB648C3730FEE23F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		05078FF11EA8D9C7007EAF06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05078FF01EA8D9C7007EAF06 /* BackgroundGPS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05078FF21EA8D9C7007EAF06 /* BackgroundGPS */ = {
+			isa = PBXGroup;
+			children = (
+				05B51FAD1EAA49BF003CDD15 /* BackgroundGPS-Bridging-Header.h */,
+				05078FF31EA8D9C7007EAF06 /* AppDelegate.swift */,
+				05078FF71EA8D9C7007EAF06 /* Main.storyboard */,
+				05078FFA1EA8D9C7007EAF06 /* Assets.xcassets */,
+				05078FFC1EA8D9C7007EAF06 /* LaunchScreen.storyboard */,
+				05078FFF1EA8D9C7007EAF06 /* Info.plist */,
+			);
+			path = BackgroundGPS;
+			sourceTree = "<group>";
+		};
+		050790051EA8DF71007EAF06 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				058D08431EAE437B00A9851B /* MainViewController.swift */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		050790061EA9051F007EAF06 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				058D083A1EAE435000A9851B /* ApiDelegate.swift */,
+				058D083B1EAE435000A9851B /* ApiManager.swift */,
+			);
+			name = api;
+			sourceTree = "<group>";
+		};
+		0515E99D1EAD20F8002C4E3A /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				058D08451EAE438F00A9851B /* LocationCell.swift */,
+			);
+			name = cells;
+			sourceTree = "<group>";
+		};
+		05B51FAE1EAA4A52003CDD15 /* ABLocationManagerObjc */ = {
+			isa = PBXGroup;
+			children = (
+				058D083E1EAE436100A9851B /* ABLocationManager.h */,
+				058D083F1EAE436100A9851B /* ABLocationManager.m */,
+			);
+			name = ABLocationManagerObjc;
+			sourceTree = "<group>";
+		};
+		05B51FB21EAA4C0C003CDD15 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				058D08411EAE436C00A9851B /* ABLocationManager.swift */,
+				05B51FAE1EAA4A52003CDD15 /* ABLocationManagerObjc */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+		579697AABB648C3730FEE23F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76561AB7C6A5DE2EAD468140 /* Pods_BackgroundGPS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F600435B04822A9EEF5C2643 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64BF2E1D97A2F3B252ED240B /* Pods-BackgroundGPS.debug.xcconfig */,
+				2B926C927A8D47AA815171DA /* Pods-BackgroundGPS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05078FEF1EA8D9C7007EAF06 /* BackgroundGPS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 050790021EA8D9C7007EAF06 /* Build configuration list for PBXNativeTarget "BackgroundGPS" */;
+			buildPhases = (
+				0F73AD1A9890E2B67E4656FB /* [CP] Check Pods Manifest.lock */,
+				05078FEC1EA8D9C7007EAF06 /* Sources */,
+				05078FED1EA8D9C7007EAF06 /* Frameworks */,
+				05078FEE1EA8D9C7007EAF06 /* Resources */,
+				2606DC9F06DB11D114E3C3B0 /* [CP] Embed Pods Frameworks */,
+				16B951382CADD95B9861CF0F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BackgroundGPS;
+			productName = BackgroundGPS;
+			productReference = 05078FF01EA8D9C7007EAF06 /* BackgroundGPS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05078FE81EA8D9C6007EAF06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Alexandr Nadtoka";
+				TargetAttributes = {
+					05078FEF1EA8D9C7007EAF06 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V62SU3773G;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 05078FEB1EA8D9C6007EAF06 /* Build configuration list for PBXProject "BackgroundGPS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05078FE71EA8D9C6007EAF06;
+			productRefGroup = 05078FF11EA8D9C7007EAF06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05078FEF1EA8D9C7007EAF06 /* BackgroundGPS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05078FEE1EA8D9C7007EAF06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05078FFE1EA8D9C7007EAF06 /* LaunchScreen.storyboard in Resources */,
+				05078FFB1EA8D9C7007EAF06 /* Assets.xcassets in Resources */,
+				05078FF91EA8D9C7007EAF06 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F73AD1A9890E2B67E4656FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		16B951382CADD95B9861CF0F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BackgroundGPS/Pods-BackgroundGPS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2606DC9F06DB11D114E3C3B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BackgroundGPS/Pods-BackgroundGPS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05078FEC1EA8D9C7007EAF06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058D083D1EAE435000A9851B /* ApiManager.swift in Sources */,
+				058D083C1EAE435000A9851B /* ApiDelegate.swift in Sources */,
+				058D08401EAE436100A9851B /* ABLocationManager.m in Sources */,
+				058D08441EAE437B00A9851B /* MainViewController.swift in Sources */,
+				058D08461EAE438F00A9851B /* LocationCell.swift in Sources */,
+				05078FF41EA8D9C7007EAF06 /* AppDelegate.swift in Sources */,
+				058D08421EAE436C00A9851B /* ABLocationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		05078FF71EA8D9C7007EAF06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05078FF81EA8D9C7007EAF06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05078FFC1EA8D9C7007EAF06 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05078FFD1EA8D9C7007EAF06 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		050790001EA8D9C7007EAF06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		050790011EA8D9C7007EAF06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		050790031EA8D9C7007EAF06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64BF2E1D97A2F3B252ED240B /* Pods-BackgroundGPS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V62SU3773G;
+				INFOPLIST_FILE = BackgroundGPS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nadto.BackgroundGPS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "./BackgroundGPS/BackgroundGPS-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		050790041EA8D9C7007EAF06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B926C927A8D47AA815171DA /* Pods-BackgroundGPS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V62SU3773G;
+				INFOPLIST_FILE = BackgroundGPS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nadto.BackgroundGPS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "./BackgroundGPS/BackgroundGPS-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05078FEB1EA8D9C6007EAF06 /* Build configuration list for PBXProject "BackgroundGPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				050790001EA8D9C7007EAF06 /* Debug */,
+				050790011EA8D9C7007EAF06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		050790021EA8D9C7007EAF06 /* Build configuration list for PBXNativeTarget "BackgroundGPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				050790031EA8D9C7007EAF06 /* Debug */,
+				050790041EA8D9C7007EAF06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05078FE81EA8D9C6007EAF06 /* Project object */;
+}

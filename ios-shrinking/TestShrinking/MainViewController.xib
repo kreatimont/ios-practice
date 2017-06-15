@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController" customModule="TestShrinking" customModuleProvider="target">
+            <connections>
+                <outlet property="imageView" destination="3BC-ie-4CT" id="08H-Kc-q6F"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="251" verticalCompressionResistancePriority="251" text="Large shrinking text" textAlignment="natural" lineBreakMode="clip" minimumScaleFactor="0.001" translatesAutoresizingMaskIntoConstraints="NO" id="nuv-sY-uao">
+                    <rect key="frame" x="8" y="8" width="304" height="119.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="251" verticalCompressionResistancePriority="250" image="red.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="3BC-ie-4CT">
+                    <rect key="frame" x="8" y="135.5" width="304" height="336.5"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="3BC-ie-4CT" secondAttribute="trailing" constant="8" id="3pU-hF-0Om"/>
+                <constraint firstItem="nuv-sY-uao" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="8" id="Fqx-kT-paQ"/>
+                <constraint firstItem="nuv-sY-uao" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="Gvi-GE-hZe"/>
+                <constraint firstAttribute="trailing" secondItem="nuv-sY-uao" secondAttribute="trailing" constant="8" id="ixu-Zx-Ck2"/>
+                <constraint firstAttribute="bottom" secondItem="3BC-ie-4CT" secondAttribute="bottom" constant="8" id="rm9-5j-3S2"/>
+                <constraint firstItem="3BC-ie-4CT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="s7e-4p-peK"/>
+                <constraint firstItem="3BC-ie-4CT" firstAttribute="top" secondItem="nuv-sY-uao" secondAttribute="bottom" constant="8" id="yO3-lY-HT3"/>
+            </constraints>
+            <point key="canvasLocation" x="-637" y="-111"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="red.jpeg" width="3400" height="4400"/>
+    </resources>
+</document>

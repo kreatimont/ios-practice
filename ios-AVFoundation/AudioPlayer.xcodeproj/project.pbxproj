@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		050ECE921EA7C9C6002D9DD7 /* imagine_dragons_believer_(NaitiMP3.ru).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 050ECE911EA7C9C6002D9DD7 /* imagine_dragons_believer_(NaitiMP3.ru).mp3 */; };
+		058B25BA1EA642B400063F79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058B25B91EA642B400063F79 /* AppDelegate.swift */; };
+		058B25BC1EA642B400063F79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058B25BB1EA642B400063F79 /* ViewController.swift */; };
+		058B25BF1EA642B400063F79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058B25BD1EA642B400063F79 /* Main.storyboard */; };
+		058B25C11EA642B400063F79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058B25C01EA642B400063F79 /* Assets.xcassets */; };
+		058B25C41EA642B400063F79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058B25C21EA642B400063F79 /* LaunchScreen.storyboard */; };
+		058B25CD1EA6465900063F79 /* Aerosmith_Dream_On.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 058B25CC1EA6465900063F79 /* Aerosmith_Dream_On.mp3 */; };
+		058B25D11EA6524C00063F79 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058B25D01EA6524C00063F79 /* RatingControl.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		050ECE911EA7C9C6002D9DD7 /* imagine_dragons_believer_(NaitiMP3.ru).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "imagine_dragons_believer_(NaitiMP3.ru).mp3"; sourceTree = "<group>"; };
+		058B25B61EA642B400063F79 /* AudioPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		058B25B91EA642B400063F79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		058B25BB1EA642B400063F79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = AudioPlayer/ViewController.swift; sourceTree = "<group>"; };
+		058B25BE1EA642B400063F79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		058B25C01EA642B400063F79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = AudioPlayer/Assets.xcassets; sourceTree = "<group>"; };
+		058B25C31EA642B400063F79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		058B25C51EA642B400063F79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		058B25CC1EA6465900063F79 /* Aerosmith_Dream_On.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Aerosmith_Dream_On.mp3; path = ../../Downloads/Aerosmith_Dream_On.mp3; sourceTree = "<group>"; };
+		058B25D01EA6524C00063F79 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RatingControl.swift; path = AudioPlayer/RatingControl.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		058B25B31EA642B400063F79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		058B25AD1EA642B400063F79 = {
+			isa = PBXGroup;
+			children = (
+				058B25CE1EA651B800063F79 /* constrollers */,
+				058B25CB1EA6463C00063F79 /* res */,
+				058B25B81EA642B400063F79 /* AudioPlayer */,
+				058B25B71EA642B400063F79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		058B25B71EA642B400063F79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				058B25B61EA642B400063F79 /* AudioPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		058B25B81EA642B400063F79 /* AudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				058B25B91EA642B400063F79 /* AppDelegate.swift */,
+				058B25BD1EA642B400063F79 /* Main.storyboard */,
+				058B25C21EA642B400063F79 /* LaunchScreen.storyboard */,
+				058B25C51EA642B400063F79 /* Info.plist */,
+			);
+			path = AudioPlayer;
+			sourceTree = "<group>";
+		};
+		058B25CB1EA6463C00063F79 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				058B25C01EA642B400063F79 /* Assets.xcassets */,
+				050ECE911EA7C9C6002D9DD7 /* imagine_dragons_believer_(NaitiMP3.ru).mp3 */,
+				058B25CC1EA6465900063F79 /* Aerosmith_Dream_On.mp3 */,
+			);
+			name = res;
+			sourceTree = "<group>";
+		};
+		058B25CE1EA651B800063F79 /* constrollers */ = {
+			isa = PBXGroup;
+			children = (
+				058B25CF1EA651EA00063F79 /* custom */,
+				058B25BB1EA642B400063F79 /* ViewController.swift */,
+			);
+			name = constrollers;
+			sourceTree = "<group>";
+		};
+		058B25CF1EA651EA00063F79 /* custom */ = {
+			isa = PBXGroup;
+			children = (
+				058B25D01EA6524C00063F79 /* RatingControl.swift */,
+			);
+			name = custom;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		058B25B51EA642B400063F79 /* AudioPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 058B25C81EA642B400063F79 /* Build configuration list for PBXNativeTarget "AudioPlayer" */;
+			buildPhases = (
+				058B25B21EA642B400063F79 /* Sources */,
+				058B25B31EA642B400063F79 /* Frameworks */,
+				058B25B41EA642B400063F79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioPlayer;
+			productName = AudioPlayer;
+			productReference = 058B25B61EA642B400063F79 /* AudioPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		058B25AE1EA642B400063F79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Alexandr Nadtoka";
+				TargetAttributes = {
+					058B25B51EA642B400063F79 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 058B25B11EA642B400063F79 /* Build configuration list for PBXProject "AudioPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 058B25AD1EA642B400063F79;
+			productRefGroup = 058B25B71EA642B400063F79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				058B25B51EA642B400063F79 /* AudioPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		058B25B41EA642B400063F79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				050ECE921EA7C9C6002D9DD7 /* imagine_dragons_believer_(NaitiMP3.ru).mp3 in Resources */,
+				058B25C41EA642B400063F79 /* LaunchScreen.storyboard in Resources */,
+				058B25CD1EA6465900063F79 /* Aerosmith_Dream_On.mp3 in Resources */,
+				058B25C11EA642B400063F79 /* Assets.xcassets in Resources */,
+				058B25BF1EA642B400063F79 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		058B25B21EA642B400063F79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058B25BC1EA642B400063F79 /* ViewController.swift in Sources */,
+				058B25D11EA6524C00063F79 /* RatingControl.swift in Sources */,
+				058B25BA1EA642B400063F79 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		058B25BD1EA642B400063F79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				058B25BE1EA642B400063F79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		058B25C21EA642B400063F79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				058B25C31EA642B400063F79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		058B25C61EA642B400063F79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		058B25C71EA642B400063F79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		058B25C91EA642B400063F79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AudioPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nadto.AudioPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		058B25CA1EA642B400063F79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AudioPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nadto.AudioPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		058B25B11EA642B400063F79 /* Build configuration list for PBXProject "AudioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				058B25C61EA642B400063F79 /* Debug */,
+				058B25C71EA642B400063F79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		058B25C81EA642B400063F79 /* Build configuration list for PBXNativeTarget "AudioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				058B25C91EA642B400063F79 /* Debug */,
+				058B25CA1EA642B400063F79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 058B25AE1EA642B400063F79 /* Project object */;
+}

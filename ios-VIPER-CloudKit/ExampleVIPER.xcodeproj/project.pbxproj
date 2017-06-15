@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05087B6A1EC3553B00AC5CFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05087B691EC3553B00AC5CFA /* AppDelegate.swift */; };
+		05087B6E1EC3554F00AC5CFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05087B6B1EC3554F00AC5CFA /* Assets.xcassets */; };
+		05087B701EC3554F00AC5CFA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05087B6D1EC3554F00AC5CFA /* Info.plist */; };
+		05087B721EC3555B00AC5CFA /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05087B711EC3555B00AC5CFA /* RootRouter.swift */; };
+		05087B781EC3557900AC5CFA /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05087B751EC3557900AC5CFA /* NoteTableViewCell.swift */; };
+		05087B791EC3557900AC5CFA /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05087B761EC3557900AC5CFA /* NoteView.swift */; };
+		05087B7A1EC3557900AC5CFA /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05087B771EC3557900AC5CFA /* NoteViewController.swift */; };
+		05087B7C1EC3558500AC5CFA /* NotePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05087B7B1EC3558500AC5CFA /* NotePresenter.swift */; };
+		05087B801EC3559200AC5CFA /* NoteInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05087B7E1EC3559200AC5CFA /* NoteInteractor.swift */; };
+		05087B821EC3559E00AC5CFA /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05087B811EC3559E00AC5CFA /* Note.swift */; };
+		05087B841EC355AF00AC5CFA /* NoteRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05087B831EC355AF00AC5CFA /* NoteRouter.swift */; };
+		05087B891EC3562B00AC5CFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05087B851EC3562B00AC5CFA /* LaunchScreen.storyboard */; };
+		05087B8A1EC3562B00AC5CFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05087B871EC3562B00AC5CFA /* Main.storyboard */; };
+		052094C91EC9EC6300A07D93 /* AddNoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052094C81EC9EC6300A07D93 /* AddNoteService.swift */; };
+		0525C2A41EC48FA50095CCCF /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0525C2A31EC48FA50095CCCF /* CloudKit.framework */; };
+		0525C2AC1EC4A0030095CCCF /* AddNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0525C2AB1EC4A0030095CCCF /* AddNoteView.swift */; };
+		0525C2AE1EC4A02F0095CCCF /* AddNotePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0525C2AD1EC4A02F0095CCCF /* AddNotePresenter.swift */; };
+		0525C2B01EC4A0BC0095CCCF /* AddNoteInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0525C2AF1EC4A0BC0095CCCF /* AddNoteInteractor.swift */; };
+		0525C2B21EC4A10C0095CCCF /* AddNoteRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0525C2B11EC4A10C0095CCCF /* AddNoteRouter.swift */; };
+		0525C2B41EC4A19F0095CCCF /* AddNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0525C2B31EC4A19F0095CCCF /* AddNoteViewController.swift */; };
+		05277B2A1ECB228A0059B902 /* PopUpDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05277B291ECB228A0059B902 /* PopUpDetailViewController.swift */; };
+		05277B2C1ECB235D0059B902 /* NoteDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05277B2B1ECB235D0059B902 /* NoteDetailsView.swift */; };
+		05277B2E1ECB23D60059B902 /* NoteDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05277B2D1ECB23D60059B902 /* NoteDetailsRouter.swift */; };
+		C81971A68A248C149DE6DBE4 /* Pods_ExampleVIPER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCDE92A8B4B5266EAA7B4121 /* Pods_ExampleVIPER.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05087B301EC3275800AC5CFA /* ExampleVIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleVIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05087B691EC3553B00AC5CFA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Application/AppDelegate.swift; sourceTree = "<group>"; };
+		05087B6B1EC3554F00AC5CFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
+		05087B6D1EC3554F00AC5CFA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
+		05087B711EC3555B00AC5CFA /* RootRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RootRouter.swift; path = Modules/Root/RootRouter.swift; sourceTree = "<group>"; };
+		05087B751EC3557900AC5CFA /* NoteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoteTableViewCell.swift; path = Modules/NoteList/View/NoteTableViewCell.swift; sourceTree = "<group>"; };
+		05087B761EC3557900AC5CFA /* NoteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoteView.swift; path = Modules/NoteList/View/NoteView.swift; sourceTree = "<group>"; };
+		05087B771EC3557900AC5CFA /* NoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoteViewController.swift; path = Modules/NoteList/View/NoteViewController.swift; sourceTree = "<group>"; };
+		05087B7B1EC3558500AC5CFA /* NotePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotePresenter.swift; path = Modules/NoteList/Presenter/NotePresenter.swift; sourceTree = "<group>"; };
+		05087B7E1EC3559200AC5CFA /* NoteInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoteInteractor.swift; path = Modules/NoteList/Interactor/NoteInteractor.swift; sourceTree = "<group>"; };
+		05087B811EC3559E00AC5CFA /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Note.swift; path = Modules/NoteList/Entity/Note.swift; sourceTree = "<group>"; };
+		05087B831EC355AF00AC5CFA /* NoteRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoteRouter.swift; path = Modules/NoteList/Router/NoteRouter.swift; sourceTree = "<group>"; };
+		05087B861EC3562B00AC5CFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Resources/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05087B881EC3562B00AC5CFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Resources/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		052094C81EC9EC6300A07D93 /* AddNoteService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddNoteService.swift; path = Modules/AddNote/Interactor/AddNoteService.swift; sourceTree = "<group>"; };
+		0525C2A11EC48FA20095CCCF /* ExampleVIPER.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ExampleVIPER.entitlements; sourceTree = "<group>"; };
+		0525C2A31EC48FA50095CCCF /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		0525C2AB1EC4A0030095CCCF /* AddNoteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddNoteView.swift; path = Modules/AddNote/View/AddNoteView.swift; sourceTree = "<group>"; };
+		0525C2AD1EC4A02F0095CCCF /* AddNotePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddNotePresenter.swift; path = Modules/AddNote/Presenter/AddNotePresenter.swift; sourceTree = "<group>"; };
+		0525C2AF1EC4A0BC0095CCCF /* AddNoteInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddNoteInteractor.swift; path = Modules/AddNote/Interactor/AddNoteInteractor.swift; sourceTree = "<group>"; };
+		0525C2B11EC4A10C0095CCCF /* AddNoteRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddNoteRouter.swift; path = Modules/AddNote/Router/AddNoteRouter.swift; sourceTree = "<group>"; };
+		0525C2B31EC4A19F0095CCCF /* AddNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddNoteViewController.swift; path = Modules/AddNote/View/AddNoteViewController.swift; sourceTree = "<group>"; };
+		05277B291ECB228A0059B902 /* PopUpDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PopUpDetailViewController.swift; path = Modules/NoteDetails/View/PopUpDetailViewController.swift; sourceTree = "<group>"; };
+		05277B2B1ECB235D0059B902 /* NoteDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoteDetailsView.swift; path = Modules/NoteDetails/View/NoteDetailsView.swift; sourceTree = "<group>"; };
+		05277B2D1ECB23D60059B902 /* NoteDetailsRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoteDetailsRouter.swift; path = Modules/NoteDetails/Router/NoteDetailsRouter.swift; sourceTree = "<group>"; };
+		5555F776A26941C2ECA025DE /* Pods-ExampleVIPER.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleVIPER.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleVIPER/Pods-ExampleVIPER.release.xcconfig"; sourceTree = "<group>"; };
+		A6402FE966B169C00F3BC50E /* Pods-ExampleVIPER.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleVIPER.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleVIPER/Pods-ExampleVIPER.debug.xcconfig"; sourceTree = "<group>"; };
+		CCDE92A8B4B5266EAA7B4121 /* Pods_ExampleVIPER.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleVIPER.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05087B2D1EC3275800AC5CFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0525C2A41EC48FA50095CCCF /* CloudKit.framework in Frameworks */,
+				C81971A68A248C149DE6DBE4 /* Pods_ExampleVIPER.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05087B271EC3275800AC5CFA = {
+			isa = PBXGroup;
+			children = (
+				05087B321EC3275800AC5CFA /* ExampleVIPER */,
+				05087B311EC3275800AC5CFA /* Products */,
+				0525C2A21EC48FA50095CCCF /* Frameworks */,
+				702F14CFEA266269CE7C1F00 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		05087B311EC3275800AC5CFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05087B301EC3275800AC5CFA /* ExampleVIPER.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05087B321EC3275800AC5CFA /* ExampleVIPER */ = {
+			isa = PBXGroup;
+			children = (
+				0525C2A11EC48FA20095CCCF /* ExampleVIPER.entitlements */,
+				05087B641EC33BDF00AC5CFA /* Application */,
+				05087B631EC33BB900AC5CFA /* Resources */,
+				05087B601EC33A0C00AC5CFA /* Modules */,
+			);
+			path = ExampleVIPER;
+			sourceTree = "<group>";
+		};
+		05087B451EC328C200AC5CFA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				05087B751EC3557900AC5CFA /* NoteTableViewCell.swift */,
+				05087B761EC3557900AC5CFA /* NoteView.swift */,
+				05087B771EC3557900AC5CFA /* NoteViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		05087B461EC328CD00AC5CFA /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				05087B7B1EC3558500AC5CFA /* NotePresenter.swift */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		05087B471EC328D900AC5CFA /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				05087B7E1EC3559200AC5CFA /* NoteInteractor.swift */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		05087B481EC328E300AC5CFA /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				05087B811EC3559E00AC5CFA /* Note.swift */,
+			);
+			name = Entity;
+			sourceTree = "<group>";
+		};
+		05087B491EC328ED00AC5CFA /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				05087B831EC355AF00AC5CFA /* NoteRouter.swift */,
+			);
+			name = Router;
+			sourceTree = "<group>";
+		};
+		05087B601EC33A0C00AC5CFA /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				05087B621EC33A4B00AC5CFA /* Root */,
+				05277B241ECB1FEA0059B902 /* NoteDetails */,
+				05087B611EC33A1E00AC5CFA /* NoteList */,
+				0525C2A51EC49F6F0095CCCF /* AddNote */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		05087B611EC33A1E00AC5CFA /* NoteList */ = {
+			isa = PBXGroup;
+			children = (
+				05087B451EC328C200AC5CFA /* View */,
+				05087B461EC328CD00AC5CFA /* Presenter */,
+				05087B471EC328D900AC5CFA /* Interactor */,
+				05087B481EC328E300AC5CFA /* Entity */,
+				05087B491EC328ED00AC5CFA /* Router */,
+			);
+			name = NoteList;
+			sourceTree = "<group>";
+		};
+		05087B621EC33A4B00AC5CFA /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				05087B711EC3555B00AC5CFA /* RootRouter.swift */,
+			);
+			name = Root;
+			sourceTree = "<group>";
+		};
+		05087B631EC33BB900AC5CFA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				05087B851EC3562B00AC5CFA /* LaunchScreen.storyboard */,
+				05087B871EC3562B00AC5CFA /* Main.storyboard */,
+				05087B6B1EC3554F00AC5CFA /* Assets.xcassets */,
+				05087B6D1EC3554F00AC5CFA /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		05087B641EC33BDF00AC5CFA /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				05087B691EC3553B00AC5CFA /* AppDelegate.swift */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		0525C2A21EC48FA50095CCCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0525C2A31EC48FA50095CCCF /* CloudKit.framework */,
+				CCDE92A8B4B5266EAA7B4121 /* Pods_ExampleVIPER.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0525C2A51EC49F6F0095CCCF /* AddNote */ = {
+			isa = PBXGroup;
+			children = (
+				0525C2A61EC49F9C0095CCCF /* View */,
+				0525C2A71EC49FA30095CCCF /* Presenter */,
+				0525C2A81EC49FAF0095CCCF /* Interactor */,
+				0525C2AA1EC49FBC0095CCCF /* Router */,
+			);
+			name = AddNote;
+			sourceTree = "<group>";
+		};
+		0525C2A61EC49F9C0095CCCF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0525C2AB1EC4A0030095CCCF /* AddNoteView.swift */,
+				0525C2B31EC4A19F0095CCCF /* AddNoteViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		0525C2A71EC49FA30095CCCF /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				0525C2AD1EC4A02F0095CCCF /* AddNotePresenter.swift */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		0525C2A81EC49FAF0095CCCF /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				0525C2AF1EC4A0BC0095CCCF /* AddNoteInteractor.swift */,
+				052094C81EC9EC6300A07D93 /* AddNoteService.swift */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		0525C2AA1EC49FBC0095CCCF /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				0525C2B11EC4A10C0095CCCF /* AddNoteRouter.swift */,
+			);
+			name = Router;
+			sourceTree = "<group>";
+		};
+		05277B241ECB1FEA0059B902 /* NoteDetails */ = {
+			isa = PBXGroup;
+			children = (
+				05277B281ECB20CC0059B902 /* View */,
+				05277B271ECB20C50059B902 /* Presenter */,
+				05277B261ECB20BD0059B902 /* Interactor */,
+				05277B251ECB20B80059B902 /* Router */,
+			);
+			name = NoteDetails;
+			sourceTree = "<group>";
+		};
+		05277B251ECB20B80059B902 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				05277B2D1ECB23D60059B902 /* NoteDetailsRouter.swift */,
+			);
+			name = Router;
+			sourceTree = "<group>";
+		};
+		05277B261ECB20BD0059B902 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		05277B271ECB20C50059B902 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		05277B281ECB20CC0059B902 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				05277B291ECB228A0059B902 /* PopUpDetailViewController.swift */,
+				05277B2B1ECB235D0059B902 /* NoteDetailsView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		702F14CFEA266269CE7C1F00 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6402FE966B169C00F3BC50E /* Pods-ExampleVIPER.debug.xcconfig */,
+				5555F776A26941C2ECA025DE /* Pods-ExampleVIPER.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05087B2F1EC3275800AC5CFA /* ExampleVIPER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05087B421EC3275800AC5CFA /* Build configuration list for PBXNativeTarget "ExampleVIPER" */;
+			buildPhases = (
+				5CE56D5CAA3F4BD27E001969 /* [CP] Check Pods Manifest.lock */,
+				05087B2C1EC3275800AC5CFA /* Sources */,
+				05087B2D1EC3275800AC5CFA /* Frameworks */,
+				05087B2E1EC3275800AC5CFA /* Resources */,
+				CCACF694DFD52A4E1BA2B8A5 /* [CP] Embed Pods Frameworks */,
+				3623505B633A5B1B454A38A9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExampleVIPER;
+			productName = ExampleVIPER;
+			productReference = 05087B301EC3275800AC5CFA /* ExampleVIPER.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05087B281EC3275800AC5CFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = kre;
+				TargetAttributes = {
+					05087B2F1EC3275800AC5CFA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V62SU3773G;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 05087B2B1EC3275800AC5CFA /* Build configuration list for PBXProject "ExampleVIPER" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05087B271EC3275800AC5CFA;
+			productRefGroup = 05087B311EC3275800AC5CFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05087B2F1EC3275800AC5CFA /* ExampleVIPER */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05087B2E1EC3275800AC5CFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05087B891EC3562B00AC5CFA /* LaunchScreen.storyboard in Resources */,
+				05087B6E1EC3554F00AC5CFA /* Assets.xcassets in Resources */,
+				05087B701EC3554F00AC5CFA /* Info.plist in Resources */,
+				05087B8A1EC3562B00AC5CFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3623505B633A5B1B454A38A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExampleVIPER/Pods-ExampleVIPER-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CE56D5CAA3F4BD27E001969 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CCACF694DFD52A4E1BA2B8A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExampleVIPER/Pods-ExampleVIPER-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05087B2C1EC3275800AC5CFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05277B2A1ECB228A0059B902 /* PopUpDetailViewController.swift in Sources */,
+				0525C2B41EC4A19F0095CCCF /* AddNoteViewController.swift in Sources */,
+				0525C2AE1EC4A02F0095CCCF /* AddNotePresenter.swift in Sources */,
+				05087B841EC355AF00AC5CFA /* NoteRouter.swift in Sources */,
+				05087B7C1EC3558500AC5CFA /* NotePresenter.swift in Sources */,
+				05087B781EC3557900AC5CFA /* NoteTableViewCell.swift in Sources */,
+				0525C2B01EC4A0BC0095CCCF /* AddNoteInteractor.swift in Sources */,
+				05087B721EC3555B00AC5CFA /* RootRouter.swift in Sources */,
+				0525C2AC1EC4A0030095CCCF /* AddNoteView.swift in Sources */,
+				05277B2E1ECB23D60059B902 /* NoteDetailsRouter.swift in Sources */,
+				0525C2B21EC4A10C0095CCCF /* AddNoteRouter.swift in Sources */,
+				05087B801EC3559200AC5CFA /* NoteInteractor.swift in Sources */,
+				05087B821EC3559E00AC5CFA /* Note.swift in Sources */,
+				052094C91EC9EC6300A07D93 /* AddNoteService.swift in Sources */,
+				05277B2C1ECB235D0059B902 /* NoteDetailsView.swift in Sources */,
+				05087B6A1EC3553B00AC5CFA /* AppDelegate.swift in Sources */,
+				05087B7A1EC3557900AC5CFA /* NoteViewController.swift in Sources */,
+				05087B791EC3557900AC5CFA /* NoteView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		05087B851EC3562B00AC5CFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05087B861EC3562B00AC5CFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		05087B871EC3562B00AC5CFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05087B881EC3562B00AC5CFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05087B401EC3275800AC5CFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05087B411EC3275800AC5CFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05087B431EC3275800AC5CFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6402FE966B169C00F3BC50E /* Pods-ExampleVIPER.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ExampleVIPER/ExampleVIPER.entitlements;
+				DEVELOPMENT_TEAM = V62SU3773G;
+				INFOPLIST_FILE = "$(SRCROOT)/ExampleVIPER/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kreatimont.ExampleVIPER;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		05087B441EC3275800AC5CFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5555F776A26941C2ECA025DE /* Pods-ExampleVIPER.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ExampleVIPER/ExampleVIPER.entitlements;
+				DEVELOPMENT_TEAM = V62SU3773G;
+				INFOPLIST_FILE = "$(SRCROOT)/ExampleVIPER/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kreatimont.ExampleVIPER;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05087B2B1EC3275800AC5CFA /* Build configuration list for PBXProject "ExampleVIPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05087B401EC3275800AC5CFA /* Debug */,
+				05087B411EC3275800AC5CFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05087B421EC3275800AC5CFA /* Build configuration list for PBXNativeTarget "ExampleVIPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05087B431EC3275800AC5CFA /* Debug */,
+				05087B441EC3275800AC5CFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05087B281EC3275800AC5CFA /* Project object */;
+}
